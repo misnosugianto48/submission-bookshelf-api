@@ -1,0 +1,24 @@
+{
+  "name": "bookshelf-api",
+  "version": "1.0.0",
+  "description": "submission learning how to build web back-end",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.mjs",
+    "dev": "nodemon src/app.mjs",
+    "lint": "eslint ./src/*.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "misno sugianto",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.10",
+    "nanoid": "^5.0.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.5.0",
+    "eslint": "^9.5.0",
+    "globals": "^15.6.0",
+    "nodemon": "^3.1.4"
+  }
+}
